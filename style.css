@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(font_mandalor_v2/mandalor.ttf);
+}
+@font-face {
+  font-family: myFirstFont2;
+  src: url(font_mandalor_v2/OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #000011;
+}
+
+.title {
+  font-family: 'myFirstFont', sans-serif;
+  --c: #ffae421a;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #ffae42a0;
+  letter-spacing: 2rem;
+  text-shadow: 5px 5px var(--c), 10px 10px var(--c), 15px 15px var(--c), 20px 20px var(--c), 40px 40px 15px var(--c);
+  //	border: 5px solid #ffae4260;
+  border-radius: 1rem;
+  padding: 1rem 4rem 3rem;
+  transform: skew(-15deg);
+
+  animation: three 5s infinite ease-in-out alternate;
+}
+
+.title:hover {
+
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1rem;
+
+}
+
+.right {
+
+  text-align: right;
+
+}
+.left {
+
+  text-align: left;
+
+}
+.center {
+
+  text-align: center;
+
+}
+
+@keyframes three {
+  100% {
+    text-shadow: -5px 5px var(--c), -10px 10px var(--c), -15px 15px var(--c), -20px 20px var(--c), -40px 40px 15px var(--c);
+    transform: skew(15deg);
+  }
+}
