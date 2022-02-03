@@ -42,7 +42,7 @@ body {
   padding: 1rem 4rem 3rem;
   transform: skew(-15deg);
 
-  animation: three 5s infinite ease-in-out alternate;
+  animation: three 25s infinite ease-in-out alternate;
 }
 
 .title:hover {
