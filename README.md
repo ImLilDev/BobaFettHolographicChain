@@ -1,12 +1,9 @@
 
 # Hologragric Text Chain Boba Fett
 
-faithfully replicate the holographic text chain as seen in The Mandalorian S02
+faithfull replica of the holographic text chain as seen in The Mandalorian S02
 
-this is what was missing for your Boba Fett cosplay :D
-
-
-
+this is what was missing on your Boba Fett cosplay :D
 
 
 ## Screenshots
